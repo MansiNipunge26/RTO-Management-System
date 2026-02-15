@@ -1,34 +1,38 @@
-How to run the RTO  Management System (rtoms) Project
+# RTO Management System
 
-1. Download the  zip file
+## Project Description
 
-2. Extract the file and copy rtoms folder
+The RTO Management System is a web-based application developed using PHP and MySQL.
+It helps manage vehicle registration, driving license applications, and user administration.
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+## Technologies Used
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+* PHP
+* MySQL
+* HTML, CSS, JavaScript
+* XAMPP
 
-5. Create a database with name rtomsdb
+## Features
 
-6. Import rtomsdb.sql file(given inside the zip package in SQL file folder)
+* User Registration & Login
+* Apply for Driving License
+* Vehicle Registration
+* Admin Dashboard
+* Application Status Tracking
 
-7.Run the script http://localhost/rtoms (frontend)
+## How to Run the Project
 
+1. Install XAMPP
+2. Copy project folder into `htdocs`
+3. Start Apache and MySQL
+4. Import database from the `database` folder
+5. Open browser and run:
 
+   ```
+   http://localhost/RTO-Management-System
+   ```
 
-Credential for admin panel :
+## Author
 
-Username: admin
-Password: Test@123
-
-Credential for  RTO panel :
-
-Username: rtobuland
-Password: Test@123
-Or Register a new RTO.
-
-Credential for  User panel :
-
-Username: garima12@gmail.com
-Password: Test@123
-Or Register a new User.
+Mansi Nipunge
+MCA (2026) – RTM Nagpur University
